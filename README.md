@@ -30,7 +30,7 @@ HTML entity encode the string, using the standard HTML encodings for characters 
 
 ## Install
 
-Add smart-helpers as a git submodule. In the root of your your smart project run:
+Add sanitizerjs as a git submodule. In the root of your your smart project run:
 
     git submodule add git://github.com/voodootikigod/sanitizerjs.git js/sanitizerjs
     
@@ -40,6 +40,6 @@ Add smart-helpers as a git submodule. In the root of your your smart project run
     
 ## Usage
 
-In your `bootstrap.js` file tell your smart application to use smart-helpers:
+In your `bootstrap.js` file tell your smart application to use sanitizerjs:
     
     system.use("sanitizerjs.init")
